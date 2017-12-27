@@ -5,14 +5,66 @@
   width: 100px;
   background-size: contain;
   background-repeat: no-repeat;
+  border-right: 2px solid #d8d9d2;
 
 }
+.navBar {
+  font-family: ubuntu, arial, sans-serif;
+max-height: 75px;
+display: flex;
+flex-direction: row;
+background: linear-gradient(white, #f2f5f0);
 
+}
+.navHeader {
+color: gray;
+font-weight: 600;
+padding-top: 35px;
+padding-left: 5px;
+padding-right: 5px;
+background: linear-gradient(white, #f2f5f0);
+
+}
 .aboutUs {
   font-family: ubuntu, arial, sans-serif;
   color: gray;
+ text-align:center;
 }
 
 .contactUs{
 
+}
+.homeButton {
+  text-align: center;
+  height: 75px;
+  width: 100px;
+  border-right: 2px solid #d8d9d2;
+  border-left: 2px solid #d8d9d2;
+
+  background: linear-gradient(white, #f2f5f0);
+  cursor: pointer;
+}
+.galleryButton {
+  text-align: center;
+  height: 75px;
+  width: 100px;
+  border-right: 2px solid #d8d9d2;
+  background: linear-gradient(white, #f2f5f0);
+  cursor: pointer;
+}
+.contactButton {
+  text-align: center;
+  height: 75px;
+  width: 100px;
+  border-right: 2px solid #d8d9d2;
+  background: linear-gradient(white, #f2f5f0);
+  cursor: pointer;
+}
+.aboutButton {
+  text-align: center;
+  height: 75px;
+  width: 100px;
+border-right: 2px solid #d8d9d2;
+background: linear-gradient(white, #f2f5f0);
+cursor: pointer;
 }
