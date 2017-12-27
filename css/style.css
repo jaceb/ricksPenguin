@@ -1,7 +1,9 @@
 .LUGlogo {
 
   background-image: url("/img/penguinLUG.PNG");
-  height: 200px;
+  height: 75px;
+  width: 100px;
+  background-size: contain;
   background-repeat: no-repeat;
 
 }
