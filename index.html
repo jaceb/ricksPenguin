@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PenguinLUG</title>
     <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
 <link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
@@ -20,12 +21,20 @@
     <p>The premier penguin lego group</p>
 
   </div>
+
   <div class="homeButton">
+    <a href="#home">
     <p>Home</p>
+    </a>
   </div>
+
+
   <div class="galleryButton">
+    <a href="#gallery">
     <p>Gallery</p>
+    </a>
   </div>
+
   <div class="aboutButton">
     <p>About</p>
   </div>
@@ -35,7 +44,7 @@
 
 </div>
 
-
+<a id="home"/>
 <div class="outerBox">
   <div class="mainPic"  alt="penguin lego" >
   </div>
@@ -43,31 +52,33 @@
     <p>PenguinLUG</p>
   </div>
 </div>
+
 <div class="aboutUs">
 
+  <a id="gallery"/>
 <h2>Welcome to PenguinLUG <i class="fa fa-linux"></i></h2>
 <p>PenguinLUG is a penguin lego group. If you are a fan of penguins, legos or penguin legos then we have you covered!</p>
 </div>
-
+<div class="owlBox">
+<h2>Penguin Legos!</h2>
 <div class="owl-carousel owl-theme">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
+    <div class="item"> <img src="../img/penguin1.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin2.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin3.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin4.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin5.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin6.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin7.jpg" alt=""> </div>
+    <div class="item"> <img src="../img/penguin8.jpg" alt=""> </div>
 </div>
+</div>
+
 <script>
   $('.owl-carousel').owlCarousel({
       loop:true,
       margin:10,
       nav:true,
+      responsive: true,
       responsive:{
           0:{
               items:1
@@ -83,7 +94,13 @@
 </script>
 
 <div class="contactUs">
-
+  <address>
+  Written by <a href="mailto:webmaster@example.com">Ricks</a>.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+  </address>
 </div>
   </body>
 </html>

@@ -1,12 +1,12 @@
+a{
+  text-decoration: none !important;
+  color:inherit;
+}
 .LUGlogo {
-
   background-image: url("/img/penguinLUG.PNG");
   min-width: 100px;
   background-size: contain;
   background-repeat: no-repeat;
-
-
-
 }
 .navBar {
   font-family: ubuntu, arial, sans-serif;
@@ -14,10 +14,11 @@ max-height: 80px;
 display: flex;
 flex-direction: row;
 background: linear-gradient(white, #f2f5f0);
+color: #393736;
 
 }
 .navHeader {
-color: gray;
+color: #393736;
 font-weight: 600;
 padding-left: 5px;
 padding-right: 5px;
@@ -26,13 +27,25 @@ width: 350px;
 text-align:center;
 border-left: 2px solid #d8d9d2;
 }
-@media (max-width: 575px) {
+@media only screen and (max-width: 575px) {
   .navHeader{
     display: none;
   }
+  .outerBox {
+    display: none;
+    height: 0px !important;
+  }
+  .innerBox {
+    display: none;
+    height: 0px !important;
+  }
+  .mainPic {
+    display: none;
+    height: 0px !important;
+  }
 }
 .navHeader p {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .aboutUs {
   font-family: ubuntu, arial, sans-serif;
@@ -93,7 +106,7 @@ cursor: pointer;
 }
 .outerBox {
 height: 300px;
-width: 85%;
+width: 95%;
 margin-left: auto;
 margin-right: auto;
 display: block;
@@ -107,7 +120,9 @@ margin-top: 30px;
   background-image: url("../img/penguin1.jpg");
   background-position: center;
   background-size: 900px;
+  background-repeat: no-repeat;
 }
+
 .innerBox{
 text-align: center;
 width: 100%;
@@ -120,6 +135,20 @@ font-size: 100px;
 font-weight:600;
 background-color: rgba(250,250,250,0.7);
 }
+
 .innerBox p {
   margin-top: 100px;
+}
+.item img{
+  height: 200px;
+
+}
+.owlBox{
+  background-color: #f2f5f0;
+  font-family: ubuntu, arial, sans-serif;
+  color: #393736;
+  text-align: center;
+}
+.item img {
+  object-fit:contain;
 }
