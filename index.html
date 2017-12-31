@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>PenguinLUG</title>
+    <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="./owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./owlcarousel/owl.carousel.js"></script>
   </head>
   <body>
     <div class="navBar">
@@ -33,7 +37,8 @@
 
 
 <div class="outerBox">
-  <img src="./img/penguin1.jpg" alt="penguin lego" />
+  <div class="mainPic"  alt="penguin lego" >
+  </div>
   <div class="innerBox">
     <p>PenguinLUG</p>
   </div>
@@ -41,8 +46,42 @@
 <div class="aboutUs">
 
 <h2>Welcome to PenguinLUG <i class="fa fa-linux"></i></h2>
-<p>PenguinLUG is a penguin lego group. If you are a fan of penguins, legos or penguin legos then we have you covered</p>
+<p>PenguinLUG is a penguin lego group. If you are a fan of penguins, legos or penguin legos then we have you covered!</p>
 </div>
+
+<div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
+</div>
+<script>
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+</script>
+
 <div class="contactUs">
 
 </div>

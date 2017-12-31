@@ -1,11 +1,10 @@
 .LUGlogo {
 
   background-image: url("/img/penguinLUG.PNG");
-  height: 60px;
-  width: 80px;
+  min-width: 100px;
   background-size: contain;
   background-repeat: no-repeat;
-  border-right: 2px solid #d8d9d2;
+
 
 
 }
@@ -25,6 +24,15 @@ padding-right: 5px;
 background: linear-gradient(white, #f2f5f0);
 width: 350px;
 text-align:center;
+border-left: 2px solid #d8d9d2;
+}
+@media (max-width: 575px) {
+  .navHeader{
+    display: none;
+  }
+}
+.navHeader p {
+  margin-top: 25px;
 }
 .aboutUs {
   font-family: ubuntu, arial, sans-serif;
@@ -93,24 +101,25 @@ position: relative;
 margin-top: 30px;
 
 }
-.outerBox img {
+.mainPic {
   width: 100%;
   height: 100%;
+  background-image: url("../img/penguin1.jpg");
+  background-position: center;
+  background-size: 900px;
 }
 .innerBox{
-  text-align: center;
+text-align: center;
 width: 100%;
 height: 100%;
-  font-family: ubuntu, arial, sans-serif;
-  position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 50px;
-
-
-    background-color: rgba(250,250,250,0.7);
-
+font-family: ubuntu, arial, sans-serif;
+position: absolute;
+top: 0;
+left: 0;
+font-size: 100px;
+font-weight:600;
+background-color: rgba(250,250,250,0.7);
 }
 .innerBox p {
-  margin-top: 140px;
+  margin-top: 100px;
 }
